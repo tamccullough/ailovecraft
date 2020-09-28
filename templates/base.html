@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>A.I. Lovecraft</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/css/themes.css">
+<link rel="stylesheet" href="static/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<!-- link rel="stylesheet" href="static/css/font-awesome.min.css" -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+html,body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif}
+
+table {
+  border-collapse: collapse;
+  table-layout:fixed;
+  /*border: 2px solid rgb(200,200,200);*/
+  /*letter-spacing: 4px;*/
+  margin: 0px auto;
+  width:100%;
+}
+
+tr {
+  line-height: 1px;
+  white-space: nowrap;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 5px 0px;
+}
+
+td {
+  text-align: left;
+}
+
+.button {
+  border:none;
+  padding:8px 0px;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  cursor:pointer;
+}
+
+.headerdiv {
+  border-width:2px;
+  border-style:solid;
+  border-color:white;
+  width: 65%;
+  height: 25%;
+  margin: 0 auto;
+}
+
+.maindiv {
+  border-width:2px;
+  border-style:solid;
+  border-color:white;
+  width: 65%;
+  height: 750px;
+  margin: 0 auto;
+}
+
+.footerdiv {
+  border-width:2px;
+  border-style:solid;
+  border-color:white;
+  width: 65%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+caption {
+  padding: 10px;
+}
+
+</style>
+<body class=" {{ theme }}-theme">
+
+<!-- Top container -->
+<div class="headerdiv">
+  <h2 class="{{ theme }}-text-title"><b> A.I. Lovecraft</b></h2>
+</div>
+
+{% block content %}{% endblock %}
+
+  <!-- Footer -->
+  <footer class="footerdiv {{ theme }}-text-red">
+    <div>
+      <a> Todd McCullough</a>
+      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-red fa fa-twitter"></i></a>
+      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-red fa fa-github"></i></a>
+      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-red fa fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+</body>
+</html>
