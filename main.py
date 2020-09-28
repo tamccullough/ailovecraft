@@ -6,7 +6,6 @@ from flask import Blueprint, flash, g, redirect, render_template, request, sessi
 import love_main as hpl
 
 import numpy as np
-import pandas as pd
 
 
 theme = 'cappucino'
