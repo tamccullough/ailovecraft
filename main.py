@@ -15,11 +15,7 @@ import re
 
 theme = 'cappucino'
 
-ailove = Flask(__name__, instance_relative_config=True)
-ailove.config.from_mapping(
-        SECRET_KEY='dev', # change to a random value later when deploying
-        DATABASE=os.path.join(ailove.instance_path, 'main.sqlite'),
-    )
+ailove = Flask(__name__)
 
 @ailove.route('/index')
 def index():
