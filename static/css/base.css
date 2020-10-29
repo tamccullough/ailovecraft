@@ -34,6 +34,7 @@ td {
   min-width: 400px;
   max-width: 850px;
   height: 90%;
+  min-height: 500px;
   margin: 0 auto;
 }
 .chatdiv {
@@ -57,6 +58,10 @@ td {
   margin: 0 auto;
 }
 
+.textcenter{
+  text-align: center;
+}
+
 .inputdiv {
   min-width: 400px;
   max-width: 85%;
@@ -75,6 +80,13 @@ td {
   background-color:inherit;
 }
 
+.spacerL {
+  height: 100px;
+  border: none;
+  background-color:inherit;
+}
+
+
 .button {
   height: 40px;
   border:none;
@@ -86,6 +98,12 @@ td {
 .center {
   margin: auto;
   display: block;
+}
+
+.xfont{
+  font-size:5em;
+  line-height:0px;
+  height:0px
 }
 
 caption {
