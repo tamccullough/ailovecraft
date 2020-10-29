@@ -4,93 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="static/css/themes.css">
+<link rel="stylesheet" href="static/css/base.css">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
 
+<style>
 html,h1,h2,h3 {font-family: 'Abril Fatface', cursive;}
 body,h4,h5 {font-family: 'Raleway', sans-serif;}
-
-table {
-  border-collapse: collapse;
-  table-layout:fixed;
-  /*border: 2px solid rgb(200,200,200);*/
-  /*letter-spacing: 4px;*/
-  margin: 0px auto;
-  width:100%;
-}
-
-tr {
-  line-height: 1px;
-  white-space: nowrap;
-}
-
-td, th {
-  border: 1px solid rgb(190,190,190);
-  padding: 5px 0px;
-}
-
-td {
-  text-align: left;
-}
-
-.lovebutton {
-  border:none;
-  padding:8px 0px;
-  text-decoration:none;
-  color:inherit;
-  background-color:inherit;
-  cursor:pointer;
-}
-
-.headerdiv {
-  min-width: 400px;
-  max-width: 850px;
-  height: 25%;
-  margin: 0 auto;
-}
-
-.maindiv {
-  min-width: 400px;
-  max-width: 850px;
-  height: 750px;
-  margin: 0 auto;
-}
-
-.footerdiv {
-  min-width: 400px;
-  max-width: 850px;
-  height: 50px;
-  margin: 0 auto;
-}
-
-.textdiv {
-  width: 95%;
-  margin: 0 auto;"
-}
-
-.inputdiv {
-  width: 95%;
-  height: 40px;
-  margin: 0 auto;"
-}
-
-caption {
-  padding: 10px;
-}
-
 </style>
+
 <body class=" {{ theme }}-theme">
 
 <!-- Top container -->
-<div class="headerdiv">
+<div class="titlediv">
   <h2 class="{{ theme }}-text-title"><b> A.I. Lovecraft</b></h2>
 </div>
 
 {% block content %}{% endblock %}
 
   <!-- Footer -->
-  <footer class="footerdiv {{ theme }}-text-red">
+  <footer class="titlediv {{ theme }}-text-red">
     <div>
       <a> Todd McCullough</a>
       <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-red fa fa-twitter"></i></a>
