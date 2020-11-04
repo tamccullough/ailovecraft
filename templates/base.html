@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="static/css/themes.css">
-<link rel="stylesheet" href="static/css/base.css">
+<link rel="stylesheet" href="static/css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -14,21 +14,20 @@ body,h4,h5 {font-family: 'Raleway', sans-serif;}
 </style>
 
 <body class=" {{ theme }}-theme">
-
+<div class="maindiv">
 <!-- Top container -->
-<div class="titlediv">
-  <h2 class="{{ theme }}-text-title"><b> A.I. Lovecraft</b></h2>
-</div>
 
-{% block content %}{% endblock %}
+{% block content %}
+{% endblock %}
 
   <!-- Footer -->
-  <footer class="titlediv {{ theme }}-text-red">
+  <footer class="titlediv">
+    <h4 class="{{ theme }}-text-title"><b>It's not GPT-2. But it's a start.</b></h4>
     <div>
-      <a> Todd McCullough</a>
-      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-red fa fa-twitter"></i></a>
-      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-red fa fa-github"></i></a>
-      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-red fa fa-linkedin"></i></a>
+      <a class=" {{ theme }}-text-title"><b>Todd McCullough</b></a>
+      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-title fa fa-twitter"></i></a>
+      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-title fa fa-github"></i></a>
+      <a href="https://twitter.com/tamccullough" target="_blank"><i class="{{ theme }}-text-title fa fa-linkedin"></i></a>
     </div>
   </footer>
 
