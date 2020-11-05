@@ -169,3 +169,27 @@
 .mono-hover-theme:hover {color:#000 !important; background-color:#fce5cd !important;}
 .mono-hover-text-theme:hover {color:#fce5cd !important;}
 .mono-hover-border-theme:hover {border-color:#fce5cd !important;}
+
+.paperback-theme {color:#424242 !important; background-color:#f0eae1 !important;}
+.paperback-theme-light {color:#424242 !important; background-color:#f7f1e9 !important;}
+.paperback-theme-dark {color:#141414 !important; background-color:#ded9d3 !important;}
+.paperback-theme-action {color:#ffffff !important; background-color:#9e9895 !important;}
+.paperback-theme-theme-colour {color:#ffffff !important; background-color:#2d62b5 !important;}
+.paperback-text-theme {color:#ffffff !important;}
+.paperback-text-title {color:#120d0b !important;}
+.paperback-text-blue {color:#3a5678 !important;}
+.paperback-text-green {color:#3b7842 !important;}
+.paperback-text-red {color:#6e3636 !important;}
+.paperback-text-yellow {color:#757539 !important;}
+.paperback-blue {color:#ffffff !important; background-color:#3a5678 !important;}
+.paperback-green {color:#ffffff !important; background-color:#3b7842 !important;}
+.paperback-red {color:#ffffff !important; background-color:#6e3636 !important;}
+.paperback-orange {color:#ffffff !important; background-color:#705037 !important;}
+.paperback-yellow {color:#ffffff !important; background-color:#757539 !important;}
+.paperback-button-d {color:#ffffff !important;}
+.paperback-button-l {color:#ffffff !important;}
+.paperback-text-poster{font-size:250px!important;}
+.paperback-border-theme {border-color:#fce5cd !important;}
+.paperback-hover-theme:hover {color:#000 !important; background-color:#fce5cd !important;}
+.paperback-hover-text-theme:hover {color:#fce5cd !important;}
+.paperback-hover-border-theme:hover {border-color:#fce5cd !important;}
