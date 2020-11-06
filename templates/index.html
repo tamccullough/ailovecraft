@@ -2,21 +2,21 @@
 {% block content %}
   <!-- Header -->
 <div class="titlediv">
-  <h1 class="{{ theme }}-text-title"><b> A.I. Lovecraft</b></h1>
+  <h1 class="{{ theme }}-t-title"><b> A.I. Lovecraft</b></h1>
 </div>
 <div class="titlediv">
-  <h4 class="{{ theme }}-text-red"> Text Generation Using the Works of H.P. Lovecraft</h4>
+  <h4 class="{{ theme }}-t-red"> Text Generation Using the Works of H.P. Lovecraft</h4>
 </div>
 <!-- main content -->
 
   <div class="inputdiv center">
     <form method="POST" action="/generate">
-      <input class="{{ theme }}-theme-dark inputbox" style="width: 75%;" type="text" id="generate" placeholder="  Type a sentence." required name="generate" name="generate">
-      <button class="{{ theme }}-theme-action button" style="width: 23%;" type="submit"><i class="{{ theme }}-text-blue fa fa-paper-plane"></i></button>
+      <input class="{{ theme }}-dark inputbox" style="width: 75%;" type="text" id="generate" placeholder="  Type a sentence." required name="generate" name="generate">
+      <button class="{{ theme }}-action button" style="width: 23%;" type="submit"><i class="{{ theme }}-t-blue fa fa-paper-plane"></i></button>
     </form>
   </div>
 <div class="spacer"></div>
-  <div class="titlediv {{ theme }}-text-blue">
+  <div class="titlediv {{ theme }}-t-blue">
     <h4> {{ description}}<h4>
   </div>
 
