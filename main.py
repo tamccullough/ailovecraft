@@ -12,7 +12,7 @@ theme = 'cappucino'
 
 ailove = Flask(__name__)
 
-@ailove.route('/index')
+@ailove.route('/')
 def index():
     generated_text = open('generated.txt','r')
     description = 'An Example of Generated Text'
@@ -26,7 +26,7 @@ def generate():
     generated_text = hpl.generate_text(start_string=sentence+u'\n',temp=1.0)
     description = 'Generated Text Produced by the Model'
     return render_template('index.html',
-    generated_text = generated_text, description = description,
+    generated_text = sentence+'\n'+generated_text, description = description,
     theme = theme)
 
 if __name__ == "__main__":
