@@ -7,7 +7,7 @@ Tensorflow Text Generation produced from H.P. Lovecraft Text Corpus
 
 
 ## App Link
-[A.I. Lovecraft](https://ailovecraft.herokuapp.com/index)
+[A.I. Lovecraft](https://ailovecraft.herokuapp.com/)
 
 ## Reference
 [Tensorflow Text Generation Tutorial](https://www.tensorflow.org/tutorials/text/text_generation)
